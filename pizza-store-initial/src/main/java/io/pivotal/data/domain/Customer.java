@@ -8,7 +8,7 @@ import org.springframework.data.gemfire.mapping.annotation.Region;
 
 @Entity
 @Table(name = "customer")
-@Region(name="customer")
+@Region(name="customer_kayla")
 public class Customer {
 
 	@Id

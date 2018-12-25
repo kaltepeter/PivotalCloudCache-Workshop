@@ -5,7 +5,7 @@ import java.util.Set;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.gemfire.mapping.annotation.Region;
 
-@Region("pizza_orders")
+@Region("pizza_orders_kayla")
 public class PizzaOrder {
 
 	@Id
